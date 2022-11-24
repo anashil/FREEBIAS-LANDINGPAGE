@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Index5 from './LangingPage/PartFive/index5';
+import Index4 from './LangingPage/PartFour';
+import Index from './LangingPage/partOne';
+import Index3 from './LangingPage/PartThree/Index3';
+import Index2 from './LangingPage/PartTwo';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+   <Index/>
+   <Index2/>
+   <Index3/>
+   <Index4/>
+   <Index5/>
+    </>
   );
 }
 
